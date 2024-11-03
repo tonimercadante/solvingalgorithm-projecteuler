@@ -1,7 +1,7 @@
 #include <stdbool.h>
 #include <stdio.h>
 
-bool is_prime(number) {
+bool is_prime(int number) {
   if (number <= 1) {
     return false;
   }
@@ -15,7 +15,7 @@ bool is_prime(number) {
   return true;
 }
 
-int calculate_largest_prime(ceil) {
+int calculate_largest_prime(int ceil) {
   int prime_count = 0;
   int largest_prime = 0;
 
