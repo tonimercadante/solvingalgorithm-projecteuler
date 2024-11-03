@@ -1,0 +1,1 @@
+the get_series function and the sum_series_product could be done in just one function.
